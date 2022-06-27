@@ -1,0 +1,114 @@
+body{
+    background-color: #000;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather Sans', sans-serif;
+    height: 100vh;
+}
+
+#page{
+    width: 33%;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+#logo{
+    font-size: 35px;
+}
+
+#logo img{
+    width: 100px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+#logo #TITAN{
+    color: #f2a900;
+}
+
+#text h3{
+    color: #f2a900;
+}
+
+#email{
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#send-email{
+    width: 100%;
+}
+
+#input-box{
+    width: 100%;
+    margin-top: 10px;
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+#subscript{
+    width: 60%;
+    height: 30px;
+    padding: 10px;
+    border: 0px solid;
+}
+
+#subscript:focus{
+    outline: none;
+}
+
+#subscript-button{
+    background-color: #f2a900;
+    border: 0px solid;
+}
+
+#subscript-button:hover, #subscript-button:active{
+    cursor: pointer;
+    background-color: #efbd47;
+}
+
+#img{
+    width: 60vw;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+#alert{
+    width: 185px;
+    border: 0px solid;
+    background: none;
+    color: #f2a900;
+    text-align: left;
+    font-size: 20px;
+}
+
+#alert:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: #efbd47;
+}
+
+#alert:active{
+    cursor: pointer;
+    color: #fbb000;
+}
+
+#alert img{
+    width: 30px;
+    vertical-align: middle;
+}
+
+#img img{
+    height: 100vh;
+    width: 60vw;
+    object-fit: cover;
+}
